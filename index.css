@@ -183,7 +183,7 @@ table, th, td {
 	.table_of_content{
 		position: fixed;
 		max-width:11rem;
-		bottom: 19rem;
+		bottom: 5rem;
 		border-radius: 1.875rem;
 
 	}
