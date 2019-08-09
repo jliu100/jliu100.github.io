@@ -144,7 +144,7 @@ table, th, td {
 @media only screen and (min-width: 5px) and (max-width: 1000px) {
   
   html{
-  	font-size:5px;
+  	font-size:10px;
   }
 
   body{
