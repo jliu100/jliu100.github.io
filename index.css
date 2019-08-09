@@ -162,7 +162,7 @@ table, th, td {
 	.grid {
   		border: 0.125rem blue solid;
   		width: max-width;
-  		height: 250rem;
+  		height: 220rem;
   		display: grid;
   		grid-template-columns: 11rem 75% minmax(6rem, 18rem);
   		grid-template-rows: 20% 20% 20% 20% 20%;
