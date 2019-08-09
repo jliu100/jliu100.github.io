@@ -141,7 +141,7 @@ table, th, td {    /*specified which one to add border*/
 	margin-right:0.625rem;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 480px) {
+@media only screen and (min-width: 100px) and (max-width: 480px) {
   /*body {
     .page-title{
       width:270px;
