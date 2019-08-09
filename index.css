@@ -183,7 +183,7 @@ table, th, td {
 	.table_of_content{
 		position: fixed;
 		max-width:11rem;
-		bottom: 5rem;
+		top: 1rem;
 		border-radius: 1.875rem;
 
 	}
@@ -244,9 +244,9 @@ table, th, td {
 		width:18.75rem;
 	}
 
-	.badminton{
+	/*.badminton{
 		width:15rem;
-	}
+	}*/
 
 	.gameN{
 		width:18.75rem;
@@ -275,7 +275,7 @@ table, th, td {
 	.badminton{
 
 		margin-right: 0.165rem;
-		width:21.875rem;
+		width:15rem;
 		margin-left:3.165rem
 	}
 
