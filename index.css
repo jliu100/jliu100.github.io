@@ -36,7 +36,7 @@ body{
 .table_of_content{
 	position: fixed;
 	max-width:11rem;
-	bottom: 19rem;
+	bottom: 30rem;
 	border-radius: 1.875rem;
 
 }
@@ -98,7 +98,7 @@ table, th, td {
 }
 
 .badminton{
-	width:21.875rem;
+	width:15rem;
 }
 
 .gameN{
