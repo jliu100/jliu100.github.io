@@ -1,4 +1,4 @@
-html{
+/*html{
 	font-size:16px;
 }
 
@@ -80,7 +80,7 @@ h3{
 	left: 1.25rem;
 } 
 
-table, th, td {    /*specified which one to add border*/
+table, th, td {    
   border: 0.125rem solid black;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -139,14 +139,10 @@ table, th, td {    /*specified which one to add border*/
 }
 .project_table{
 	margin-right:0.625rem;
-}
+}*/
 
-@media only screen and (min-width: 100px) and (max-width: 480px) {
-  /*body {
-    .page-title{
-      width:270px;
-    }
-  }*/
+@media only screen and (min-width: 5px) and (max-width: 480px) {
+  
   html{
   	font-size:5px;
   }
