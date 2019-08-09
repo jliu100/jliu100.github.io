@@ -97,10 +97,12 @@ table, th, td {
 	width:18.75rem;
 }
 
-.badminton{
-	width:15rem;
-}
 
+
+.video{
+	height:240px;
+	width:350px;
+}
 .gameN{
 	width:18.75rem;
 }
@@ -244,9 +246,7 @@ table, th, td {
 		width:18.75rem;
 	}
 
-	/*.badminton{
-		width:15rem;
-	}*/
+	
 
 	.gameN{
 		width:18.75rem;
@@ -278,7 +278,10 @@ table, th, td {
 		width:10rem;
 		margin-left:3.165rem
 	}
-
+	.video{
+		height:100px;
+		width:145px;
+	}
 
 	.cook_table,.game_table {
 		margin-left:0.5rem;
