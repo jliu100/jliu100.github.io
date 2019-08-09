@@ -141,147 +141,150 @@ table, th, td {
 	margin-right:0.625rem;
 }
 
+
+
+
 @media only screen and (min-width: 5px) and (max-width: 1000px) {
   
-  html{
-  	font-size:10px;
-  }
+  	html{
+  		font-size:10px;
+  	}
 
-  body{
-	background-image: url(https://s3.envato.com/files/33593446/zak_35_590.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-
-.grid {
-  border: 0.125rem blue solid;
-  width: max-width;
-  height: 212rem;
-  display: grid;
-  grid-template-columns: 11rem 75% minmax(6rem, 18rem);
-  grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-.box {
-  color: black;
-  border-radius: 1rem;
-  border: 0.125rem dodgerblue solid;
-}
-
-.a{
-	grid-row-start: 1;           
- 	grid-row-end: 6;
- 	grid-column: 1/2;
- 	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.webp);
- 	background-size: cover;
-}
-
-.table_of_content{
-	position: fixed;
-	max-width:11rem;
-	bottom: 19rem;
-	border-radius: 1.875rem;
-
-}
-
-.b{
-	grid-column:2 / 3;
-
- 	grid-row-start: 1;           
- 	grid-row-end: 6;
-
- 	background-image: url(http://pluspng.com/img-png/clear-blue-sky-png-white-clouds-time-lapse-and-clear-blue-sky-stock-video-footage-videoblocks-1280.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+  	body{
+		background-image: url(https://s3.envato.com/files/33593446/zak_35_590.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+ 	}
 
 
-}
-img{
-	max-height:18rem;
-	max-width:30rem;
-	overflow:scroll; 
-}
-
-
-.name{
-	text-align: center;
-}
-
-h3{
+	.grid {
+  		border: 0.125rem blue solid;
+  		width: max-width;
+  		height: 250rem;
+  		display: grid;
+  		grid-template-columns: 11rem 75% minmax(6rem, 18rem);
+  		grid-template-rows: 20% 20% 20% 20% 20%;
+	}
 	
-	text-align: center;
-}
+	.box {
+  		color: black;
+  		border-radius: 1rem;
+  		border: 0.125rem dodgerblue solid;
+	}
 
-#self{
-	position:relative;
-	left:24rem;
-}
+	.a{
+		grid-row-start: 1;           
+	 	grid-row-end: 6;
+	 	grid-column: 1/2;
+	 	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.webp);
+	 	background-size: cover;
+	}
 
-#AboutMe, #Projects, #Interests_outside_of_Programming{
-	max-width:56.25rem;
-	position:relative;
-	left: 1.25rem;
-} 
+	.table_of_content{
+		position: fixed;
+		max-width:11rem;
+		bottom: 19rem;
+		border-radius: 1.875rem;
 
-table, th, td {    /*specified which one to add border*/
-  border: 0.125rem solid black;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  border-radius: 0.3rem;
-}
+	}
 
-.project_title{
-	width:9.375rem;
-}
-.link{
-	width:11.875rem;
-}
-.descrip{
-	width:18.75rem;
-}
+	.b{
+		grid-column:2 / 3;
 
-.badminton{
-	width:21.875rem;
-}
+	 	grid-row-start: 1;           
+	 	grid-row-end: 6;
 
-.gameN{
-	width:18.75rem;
-}
-
-.game{
-	height:25rem;
-	width:31.25rem;
-}
-
-.steak{
-	display:block;
-}
-.items{
-	margin-top: 1.25rem;
-
-}
-
-.items2{
-	margin-bottom:1.25rem;
-}
-
-.recipesName{
-	width:12.5rem;
-}
-.badminton{
-
-	margin-right: 0.165rem;
-	width:21.875rem;
-	margin-left:3.165rem
-}
+	 	background-image: url(http://pluspng.com/img-png/clear-blue-sky-png-white-clouds-time-lapse-and-clear-blue-sky-stock-video-footage-videoblocks-1280.png);
+		background-repeat: no-repeat;
+		background-size: cover;
 
 
-.cook_table,.game_table {
-	margin-left:0.5rem;
-	margin-right:3.5rem;
-}
-.project_table{
-	margin-right:0.625rem;
-}
+	}
+	img{
+		max-height:18rem;
+		max-width:30rem;
+		overflow:scroll; 
+	}
+
+
+	.name{
+		text-align: center;
+	}
+
+	h3{
+		
+		text-align: center;
+	}
+
+	#self{
+		position:relative;
+		left:24rem;
+	}
+
+	#AboutMe, #Projects, #Interests_outside_of_Programming{
+		max-width:56.25rem;
+		position:relative;
+		left: 1.25rem;
+	} 
+
+	table, th, td {    /*specified which one to add border*/
+	  border: 0.125rem solid black;
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  border-radius: 0.3rem;
+	}
+
+	.project_title{
+		width:9.375rem;
+	}
+	.link{
+		width:11.875rem;
+	}
+	.descrip{
+		width:18.75rem;
+	}
+
+	.badminton{
+		width:21.875rem;
+	}
+
+	.gameN{
+		width:18.75rem;
+	}
+
+	.game{
+		height:25rem;
+		width:31.25rem;
+	}
+
+	.steak{
+		display:block;
+	}
+	.items{
+		margin-top: 1.25rem;
+
+	}
+
+	.items2{
+		margin-bottom:1.25rem;
+	}
+
+	.recipesName{
+		width:12.5rem;
+	}
+	.badminton{
+
+		margin-right: 0.165rem;
+		width:21.875rem;
+		margin-left:3.165rem
+	}
+
+
+	.cook_table,.game_table {
+		margin-left:0.5rem;
+		margin-right:3.5rem;
+	}
+	.project_table{
+		margin-right:0.625rem;
+	}
 }
