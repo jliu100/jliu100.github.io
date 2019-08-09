@@ -25,14 +25,14 @@ body{
   border: 0.125rem dodgerblue solid;
 }
 
-.a{
+/*.a{
 	grid-row-start: 1;           
  	grid-row-end: 6;
  	grid-column: 1/2;
  	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.webp);
  	background-size: cover;
 }
-
+*/
 .table_of_content{
 	position: fixed;
 	max-width:11rem;
@@ -176,7 +176,7 @@ table, th, td {
 		grid-row-start: 1;           
 	 	grid-row-end: 6;
 	 	grid-column: 1/2;
-	 	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.webp);
+	 	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.we);
 	 	background-size: cover;
 	}
 
