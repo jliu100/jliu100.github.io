@@ -224,7 +224,7 @@ table, th, td {
 	#AboutMe, #Projects, #Interests_outside_of_Programming{
 		max-width:56.25rem;
 		position:relative;
-		left: 10rem;
+		left: 8rem;
 	} 
 
 	table, th, td {    /*specified which one to add border*/
@@ -245,7 +245,7 @@ table, th, td {
 	}
 
 	.badminton{
-		width:21.875rem;
+		width:15rem;
 	}
 
 	.gameN{
