@@ -2,16 +2,7 @@ html{
 	font-size:16px;
 }
 
-@media only screen and (max-width: 480px) {
-  /*body {
-    .page-title{
-      width:270px;
-    }
-  }*/
-  html{
-  	font-size:5px;
-  }
-}
+
 
 body{
 	background-image: url(https://s3.envato.com/files/33593446/zak_35_590.jpg);
@@ -149,4 +140,15 @@ table, th, td {    /*specified which one to add border*/
 }
 .project_table{
 	margin-right:0.625rem;
+}
+
+@media only screen and (max-width: 480px) {
+  /*body {
+    .page-title{
+      width:270px;
+    }
+  }*/
+  html{
+  	font-size:5px;
+  }
 }
