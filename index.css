@@ -275,12 +275,12 @@ table, th, td {
 	.badminton{
 
 		margin-right: 0.165rem;
-		width:10rem;
+		width:12rem;
 		margin-left:3.165rem
 	}
 	.video{
-		height:100px;
-		width:145px;
+		height:150px;
+		width:220px;
 	}
 
 	.cook_table,.game_table {
