@@ -224,7 +224,7 @@ table, th, td {
 	#AboutMe, #Projects, #Interests_outside_of_Programming{
 		max-width:56.25rem;
 		position:relative;
-		left: 1.25rem;
+		left: 6rem;
 	} 
 
 	table, th, td {    /*specified which one to add border*/
