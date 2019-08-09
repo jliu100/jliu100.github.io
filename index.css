@@ -1,4 +1,4 @@
-/*html{
+html{
 	font-size:16px;
 }
 
@@ -139,9 +139,9 @@ table, th, td {
 }
 .project_table{
 	margin-right:0.625rem;
-}*/
+}
 
-@media only screen and (min-width: 5px) and (max-width: 500px) {
+@media only screen and (min-width: 5px) and (max-width: 1000px) {
   
   html{
   	font-size:5px;
