@@ -294,4 +294,93 @@ table, th, td {
 	#go_top{
 		margin-top:0.5rem;
 	}
+
+	/*-------------------------------------------------------------------------------------*/
+	/*bootstrap*/
+
+
+
+#Cookies{
+	text-align: center;
+
+}
+.bootstrapImag{
+	 border-radius: 50%;	  /*border will now be circle*/
+
+}
+.title{
+	background-image: url("../img/milkbg.jpg");
+	height:475px;
+	background-repeat: no-repeat;
+	background-position: center; /*the background will now be center and on the top*/
+	 
+   
+	padding: 100px 0;    /*center the info inside the .title */
+	
+
+}
+
+.title .head{
+	color:white;
+	background-color: rgba(0,0,0,0.5);   /*overlay*/
+	width:480px;                         
+	height: 260px;
+	border-radius: 2%;
+
+
+	margin-left: auto; /*To center content (horizontally) in .head, set left and right margin to auto*/
+    margin-right: auto;
+
+
+    padding: 70px 0px; /*To center a content (vertically)*/
+
+}
+
+.head h1{
+	font-size:50px;
+}
+
+.head p{
+	font-size:25px;
+}
+
+
+
+.container{
+	max-width: 950px;  /*set the width for both div class*/
+
+	margin-left: auto;  /*to center the content (horizontally) for both classes*/
+    margin-right: auto;
+}
+
+.col-sm-3 > h3{         /*for all h3 in .col-sm-3 or .col-sm-4*/
+	font-size:20px;
+}
+
+.col-sm-3 > p{
+	font-size:5px;
+}
+
+.new{
+	display:inline;
+}
+
+.col-sm-3 h4{
+	font-size:20px;
+	color:white;
+	background-color: red;
+
+	margin-left: auto;  /*to center the content in h4*/
+    margin-right: auto;
+    width:50px;
+
+}
+
+.col-sm-3 > p{
+	font-size:20px;
+}
+
+
+
+
 }
