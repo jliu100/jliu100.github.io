@@ -309,7 +309,7 @@ table, th, td {
 
 }
 .title{
-	background-image: url("../img/milkbg.jpg");
+	background-image: url("milkbg.jpg");
 	height:475px;
 	background-repeat: no-repeat;
 	background-position: center; /*the background will now be center and on the top*/
