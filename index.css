@@ -26,7 +26,7 @@ body{
 }
 
 .a{
-	grid-row-start: 1;           
+	grid-row-start: 1;
  	grid-row-end: 6;
  	grid-column: 1/2;
  	background-image: url(https://media3.giphy.com/media/Pp9W9tuVF5NwQ/200w.webp?cid=790b76119994fab270262c668e91956d7df63cf7e9d180c1&rid=200w.webp);
@@ -70,8 +70,19 @@ h3{
 }
 
 #self{
+	display: block;
 	position:relative;
-	left:24rem;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.outside{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:  wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 #AboutMe, #Projects, #Interests_outside_of_Programming{
@@ -128,7 +139,6 @@ table, th, td {
 	width:12.5rem;
 }
 .badminton{
-
 	margin-right: 0.165rem;
 	width:21.875rem;
 	margin-left:3.165rem
@@ -145,7 +155,7 @@ table, th, td {
 
 
 
-
+/*Add responsive*/
 @media only screen and (min-width: 5px) and (max-width: 1000px) {
   
   	html{
@@ -214,7 +224,6 @@ table, th, td {
 	}
 
 	h3{
-		
 		text-align: center;
 	}
 
