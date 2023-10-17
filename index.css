@@ -153,6 +153,9 @@ table, th, td {
 	margin-right:0.625rem;
 }
 
+.linkToTop {
+	margin-top: 0.5rem
+}
 
 
 /*Add responsive*/
@@ -313,6 +316,10 @@ table, th, td {
 	#go_top{
 		margin-top:0.5rem;
 	}
+
+	.linkToTop {
+	margin-top: 0.5rem
+}
 
 	/*-------------------------------------------------------------------------------------*/
 	/*bootstrap*/
